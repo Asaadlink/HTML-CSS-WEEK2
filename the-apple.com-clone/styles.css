@@ -86,6 +86,12 @@ nav {
   height: 44px;
 }
 
+.shop-online {
+  background-color: #fbfbfd;
+  text-align: center;
+  padding: 20px 0;
+}
+
 .block1{
     display: flex;
     justify-content: center;
@@ -263,46 +269,50 @@ nav {
 
 @media screen and (max-width: 1024px) {
   .iphone-13-pro{
-    background: url("images/M/iphone13pro.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg");
   }
   .iphone-13 {
-    background: url("images/M/iphone13.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg");
   }
   .watch7 {
-    background: url("images/M/wtach7.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg");
   }
   .valentine_day {
-    background: url("images/M/valentine.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_large.jpg");
+  }
+  .photos{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg");
   }
   .watch{
-    background: url("images/M/watch.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg");
   }
   .black-watch{
-    background: url("images/M/blackwatch.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_large.jpg");
   }
   .icard{
-    background: url("images/M/card.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg");
   }
   .title-heading-card{
-    background: url("images/M/cardi.png");
+    background: url("https://www.apple.com/v/home/aj/images/logos/apple-card/logo__dcojfwkzna2q_medium.png");
   }
   .tv-plus{
-    background: url("images/M/tv.jpg");
+    background: url("https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_large.jpg");
   }
   .title-heading-tv{
-    background: url("images/M/tvplus.png") center no-repeat;
+    background: url("https://www.apple.com/v/home/aj/images/logos/tv-plus/logo_light__cfvl40z2nzau_medium.png") center no-repeat;
   }
   .title-sub-heading-tv{
-    background: url("images/M/sky.png") center no-repeat;
+    background: url("https://www.apple.com/v/home/aj/images/logos/tv-plus-the-sky-is-everywhere/promo_logo_sky__ezlyn7ddjzcm_medium.png") center no-repeat;
   }
   .title-heading-watch{
-    background: url("images/M/watchseries7.png") center no-repeat;
+    background: url("https://www.apple.com/v/home/aj/images/logos/watch-series-7/tile_watch_logo_lte__h7snssb7mqq2_medium.png") center no-repeat;
   }
   .hero {
-    height: 65rem;
-    background-size: auto;
-    background-position: bottom center;
-    background-repeat: no-repeat;
+    height: 538px;
+    margin-bottom: 20px;
+    background-position: center;
+    text-align: center;
+    justify-content: space-between;
   }
 
 
@@ -328,6 +338,9 @@ nav {
     height: 4.8rem;
     transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1),
       height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+  }
+  div {
+    flex-direction: column;
   }
 
   header .container {
@@ -476,47 +489,52 @@ nav {
 
 @media screen and (max-width: 640px) {
   .iphone-13-pro {
-    background: url("images/S/iphone13pro.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg");
   }
   .iphone-13 {
-    background: url("images/S/iphone13.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small.jpg");
   }
   .valentine_day {
-    background: url("images/S/valentine.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_small.jpg");
   }
   .watch7{
     background: url("images/S/watch7.jpg");
   }
+  .photos{
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_small.jpg");
+
+  }
   .watch{
-    background: url("images/S/watch.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_small.jpg");
   }
   .black-watch{
-    background: url("images/S/blackwatch.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_small.jpg");
   }
   .icard{
-    background: url("images/S/card.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_small.jpg");
   }
   .title-heading-card{
-    background: url("images/S/cardi.png");
+    background: url("https://www.apple.com/v/home/aj/images/logos/apple-card/logo__dcojfwkzna2q_medium.png");
   }
   .tv-plus{
-    background: url("images/S/tv.jpg");
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_small.jpg");
   }
   .title-heading-tv{
-    background: url("images/S/tvplus.png") center no-repeat;
+    background: url("https://www.apple.com/v/home/aj/images/logos/tv-plus/logo_light__cfvl40z2nzau_medium.png") center no-repeat;
   }
   .title-sub-heading-tv{
-    background: url("images/S/sky.png") center no-repeat;
+    background: url("https://www.apple.com/v/home/aj/images/logos/tv-plus-the-sky-is-everywhere/promo_logo_sky__ezlyn7ddjzcm_medium.png") center no-repeat;
   }
   .title-heading-watch{
-    background: url("images/S/watchseries7.png") center no-repeat;
+    background: url("https://www.apple.com/v/home/aj/images/logos/watch-series-7/tile_watch_logo_lte__h7snssb7mqq2_medium.png") center no-repeat;
   }
 
   .hero {
     height: 54rem;
-    background-size: auto 55rem;
+    background-size: 55rem;
     background-position: bottom center;
     background-repeat: no-repeat;
+    flex-direction: column;
   }
   .title {
     padding: 3.7rem;
