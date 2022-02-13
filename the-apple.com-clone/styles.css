@@ -7,7 +7,7 @@
 html {
   font-size: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -158,8 +158,11 @@ header {
 
 .watch7 {
   background: url("images/Watch7.jpg");
-  width: 600px;
-  height: 500px;
+    box-sizing: border-box;
+    width: 600px;
+    margin-right: 50px;
+    height: 500px;
+  }
 }
 
 .title-heading-watch {
@@ -177,11 +180,12 @@ header {
   }
 
 .photos {
-    box-sizing: border-box;
     background: url("images/Photos.jpg");
+    box-sizing: border-box;
     width: 600px;
     margin-right: 50px;
     height: 500px;
+  
   }
   .watch {
     background: url("images/Watch.jpg");
@@ -249,16 +253,40 @@ header {
 
 @media screen and (max-width: 1024px) {
   .iphone-13-pro{
-    background: url("");
+    background: url("images/M/iphone13pro.jpg");
   }
   .iphone-13 {
-    background: url("");
+    background: url("images/M/iphone13.jpg");
   }
-  .watch {
-    background: url("");
+  .watch7 {
+    background: url("images/M/wtach7.jpg");
   }
   .valentine_day {
-    background: url("");
+    background: url("images/M/valentine.jpg");
+  }
+  .watch{
+    background: url("images/M/watch.jpg");
+  }
+  .black-watch{
+    background: url("images/M/blackwatch.jpg");
+  }
+  .icard{
+    background: url("images/M/card.jpg");
+  }
+  .title-heading-card{
+    background: url("images/M/cardi.png");
+  }
+  .tv-plus{
+    background: url("images/M/tv.jpg");
+  }
+  .title-heading-tv{
+    background: url("images/M/tvplus.png") center no-repeat;
+  }
+  .title-sub-heading-tv{
+    background: url("images/M/sky.png") center no-repeat;
+  }
+  .title-heading-watch{
+    background: url("images/M/watchseries7.png") center no-repeat;
   }
   .hero {
     height: 65rem;
@@ -281,11 +309,6 @@ header {
     margin-left: 2rem;
   }
 
-  .title-heading-watch {
-    height: 6.2rem;
-    background: url("") center no-repeat;
-    background-size: auto 6.2rem;
-  }
 }
 
 /* MOBILE VIEW  */
@@ -442,18 +465,43 @@ header {
 }
 
 @media screen and (max-width: 640px) {
-  .iphone-13-pro{
-    background: url("");
+  .iphone-13-pro {
+    background: url("images/S/iphone13pro.jpg");
   }
   .iphone-13 {
-    background: url("");
+    background: url("images/S/iphone13.jpg");
   }
-  .iphone-12 {
-    background: url("");
+  .valentine_day {
+    background: url("images/S/valentine.jpg");
   }
-  .watch7 {
-    background: url("");
+  .watch7{
+    background: url("images/S/watch7.jpg");
   }
+  .watch{
+    background: url("images/S/watch.jpg");
+  }
+  .black-watch{
+    background: url("images/S/blackwatch.jpg");
+  }
+  .icard{
+    background: url("images/S/card.jpg");
+  }
+  .title-heading-card{
+    background: url("images/S/cardi.png");
+  }
+  .tv-plus{
+    background: url("images/S/tv.jpg");
+  }
+  .title-heading-tv{
+    background: url("images/S/tvplus.png") center no-repeat;
+  }
+  .title-sub-heading-tv{
+    background: url("images/S/sky.png") center no-repeat;
+  }
+  .title-heading-watch{
+    background: url("images/S/watchseries7.png") center no-repeat;
+  }
+
   .hero {
     height: 54rem;
     background-size: auto 55rem;
@@ -470,12 +518,7 @@ header {
   .title-sub-heading {
     font-size: 1.9rem;
   }
-  .title-heading-watch {
-    margin-top: -0.5rem;
-    margin-bottom: 0;
-  }
-
-
+  
   .cta {
     margin-top: 0.7rem;
   }
