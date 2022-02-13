@@ -80,12 +80,21 @@ header {
     justify-content: center;
     
 }
+.block2{
+  display:flex;
+  justify-content: center;
+}
+.block3{
+  display:flex;
+  justify-content: center;
+}
 
 
 /* iphone13pro section */
 
 .iphone-13-pro {
   background: url("images/iphone-13-pro.jpg");
+  height: 700px;
 }
 
 .title {
@@ -130,6 +139,7 @@ header {
 
 .iphone-13 {
   background: url("images/iphone-13.jpg");
+  height: 700px;
 }
 
 .title-dark {
@@ -160,27 +170,41 @@ header {
 }
 
 .valentine_day {
-    box-sizing: border-box;
+    
     background: url("images/Valentine-Day.jpg");
-    width: 600px;
-    margin-right: 50px;
-    height: 500px;
+    height: 700px;
    
   }
 
 .photos {
+    box-sizing: border-box;
     background: url("images/Photos.jpg");
+    width: 600px;
+    margin-right: 50px;
+    height: 500px;
   }
   .watch {
     background: url("images/Watch.jpg");
+    box-sizing: border-box;
+    width: 600px;
+    margin-right: 50px;
+    height: 500px;
   }
 
   .black-watch {
     background: url("images/black-watch.jpg");
+    box-sizing: border-box;
+    width: 600px;
+    margin-right: 50px;
+    height: 500px;
   }
 
   .icard {
     background: url("images/icard.jpg");
+    box-sizing: border-box;
+    width: 600px;
+    margin-right: 50px;
+    height: 500px;
   }
   .title-heading-card{
     height: 7.8rem;
@@ -191,6 +215,10 @@ header {
 
   .tv-plus {
     background: url("images/tv-plus.jpg");
+    box-sizing: border-box;
+    width: 600px;
+    margin-right: 50px;
+    height: 500px;
   }
   .title-heading-tv{
     height: 7.8rem;
@@ -220,16 +248,16 @@ header {
 /* TABLET view */
 
 @media screen and (max-width: 1024px) {
-  .imac{
+  .iphone-13-pro{
     background: url("");
   }
-  .iphone-12-pro {
-    background: url("");
-  }
-  .iphone-12 {
+  .iphone-13 {
     background: url("");
   }
   .watch {
+    background: url("");
+  }
+  .valentine_day {
     background: url("");
   }
   .hero {
@@ -238,6 +266,8 @@ header {
     background-position: bottom center;
     background-repeat: no-repeat;
   }
+
+
 
   .title-heading {
     font-size: 4.4rem;
@@ -271,7 +301,7 @@ header {
     padding: 0;
   }
 
-  .imac {
+  .iphone-13-pro {
     margin-top: 4.8rem;
   }
 
@@ -412,16 +442,16 @@ header {
 }
 
 @media screen and (max-width: 640px) {
-  .imac{
+  .iphone-13-pro{
     background: url("");
   }
-  .iphone-12-pro {
+  .iphone-13 {
     background: url("");
   }
   .iphone-12 {
     background: url("");
   }
-  .watch {
+  .watch7 {
     background: url("");
   }
   .hero {
